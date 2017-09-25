@@ -1,0 +1,15 @@
+<p>
+  login-cmp works!
+</p>
+  <div *ngFor="let n of list" >
+      <div *ngIf="n.edad > 15">
+        {{n.nombre}};
+        {{n.edad}};
+    </div>   
+</div>
+
+<div [ngSwitch]="color" >
+<div *ngSwitchCase="'blue'" [ngStyle]="{background:color}" >Colores notitas :) </div>
+
+</div>
+
